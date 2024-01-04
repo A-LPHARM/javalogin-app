@@ -3,16 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>prdevop26@gmail.com</username>
-      <password>Admin123!</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>prdevop26@gmail.com</username>
-      <password>Admin123!</password>
-      <id>snapshots</id>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
   </servers>
+ <!--
   <profiles>
     <profile>
       <repositories>
@@ -52,5 +48,6 @@
   </profiles>
   <activeProfiles>
     <activeProfile>artifactory</activeProfile>
-  </activeProfiles>
+	 </activeProfiles>
+ -->
 </settings>
